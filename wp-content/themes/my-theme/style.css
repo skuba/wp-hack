@@ -1,0 +1,48 @@
+/*
+Theme Name: my-theme
+Author: skubaweb
+Version: 1.0
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+
+a:link,
+a:visited {
+    color: #006ec3;
+}
+
+p {
+    line-height: 1.65em;
+}
+
+/* General Layout */
+div.container {
+    max-width: 920px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+article.post  {
+    border-bottom: 2px dotted #bbbbbb;
+}
+
+article.post:last-of-type  {
+    border-bottom: none;
+}
+
+/* Header */
+.site-header {
+    border-bottom: 2px solid #999;
+}
+
+/* Footer */
+.site-footer {
+    margin-top: 30px;
+    border-top: 2px solid #999;
+}

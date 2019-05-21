@@ -1,0 +1,7 @@
+[26-Mar-2019 23:38:56 UTC] PHP Fatal error:  Call to undefined function add_function() in /home/ubuntu/workspace/wp-content/themes/my-theme/functions.php on line 11
+[26-Mar-2019 23:38:56 UTC] PHP Stack trace:
+[26-Mar-2019 23:38:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[26-Mar-2019 23:38:56 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[26-Mar-2019 23:38:56 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[26-Mar-2019 23:38:56 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[26-Mar-2019 23:38:56 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:424

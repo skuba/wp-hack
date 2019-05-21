@@ -44,6 +44,12 @@ git commit -m "first commit"
 git remote add origin git@github.com:skuba/wp-hack.git
 git push -u origin master
 
+-- Nota
+https url: https://github.com/<Username>/<Project>.git
+ssh url: git@github.com:<Username>/<Project>.git
+(git remote set-url origin git@github.com/<Username>/<Project>.git)
+https://github.com/skuba/wp-hack.git
+
 ## push an existing repository from the command line
 git remote add origin git@github.com:skuba/wp-hack.git
 git push -u origin master
